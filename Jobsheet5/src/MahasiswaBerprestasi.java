@@ -1,6 +1,11 @@
 public class MahasiswaBerprestasi {
-    Mahasiswa08[] listMhs = new Mahasiswa08[5];
+    Mahasiswa08 listMhs[];
     int idx;
+
+    MahasiswaBerprestasi(int jmlMhs) {
+        listMhs = new Mahasiswa08[jmlMhs];
+        idx = 0;
+    }
 
     void tambah(Mahasiswa08 mhs) {
         if (idx < listMhs.length) { 
