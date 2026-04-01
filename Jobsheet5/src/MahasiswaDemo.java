@@ -42,5 +42,7 @@ public class MahasiswaDemo {
         System.out.println("Data Mahasiswa setelah sorting berdasarkan IPK (Insertion Sort)");
         list.InsertionSort();
         list.tampil();
+
+        sc.close();
     }
 }
